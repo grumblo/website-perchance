@@ -2,3 +2,34 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.circle {
+  float: left; 
+  margin-left: -400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #121212; /* Set your desired color */
+  transition: transform 1s ease; /* Smooth rotation */
+  background-image:url(nom.jpg);
+  background-size: cover;
+  z-index: -10;
+  background-attachment: fixed;
+
+}
+
+
+.circle2 {
+  float: right; 
+  margin-right: -400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #121212; /* Set your desired color */
+  transition: transform 1s ease; /* Smooth rotation */
+  background-image:url(nom.jpg);
+  background-size: cover;
+  z-index: -10;
+  background-attachment: fixed;
+
+}
